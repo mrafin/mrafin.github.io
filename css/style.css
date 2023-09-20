@@ -1,0 +1,19 @@
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: #0CA579;
+}
+
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: #179d77;
+}
+
+ .box-shadow{
+   box-shadow: 0px 4px 14px 0px #00000026;
+ }
+
+ .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.6rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.6rem * calc(1 - var(--tw-space-x-reverse)));
+}
